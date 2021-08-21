@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=|, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Spotify</title>
+</head>
+<body>
+    <div class="container mt-5">
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/spotify.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/spotify2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 row mt-2">
+            <div class="col">
+                <div class="card h-100">
+                  <img src="img/imgmarc.jpg" class="card-img-top" alt="..." id="imgMarc" style="width: 100%; height: 100%;">
+                  <div class="card-body">
+                    <h5 class="card-title" id="TituloMarc">Marc Anthony - Cambio de Piel</h5>
+                    <audio src="audio/marcantony.mp4" controls class="w-100" id="audioMarc"></audio>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/tonyVegaimg.jpg" class="card-img-top" alt="..." id="imgTony" style="height: 100%; height: 100%;">
+                  <div class="card-body">
+                    <h5 class="card-title" id="titulo2">Tony Vega - Dile</h5>
+                    <audio src="audio/diletony.mp4" controls class="w-100" id="audioTony"></audio>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/imgamaro.jpg" class="card-img-top" alt="..." id="imgAmaro" style="height: 100%; width: 100%;">
+                  <div class="card-body">
+                    <h5 class="card-title" id="titulo3"> Amaro - Amor de Antes</h5>
+                    <audio src="audio/amordeantes.mp4" controls class="w-100" id="audioAmaro"></audio>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col">
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-success" id="boton">Nuevas Canción</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col">
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-warning" id="boton2">Viejas Canciones</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script src="controlador.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
+
+</body>
+</html>
